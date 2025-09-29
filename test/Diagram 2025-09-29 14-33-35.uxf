@@ -1,0 +1,38 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>693</x><y>572</y><w>176</w><h>99</h></coordinates><panel_attributes>Student
+-
+Id
+FullName
+GroupId</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>187</y><w>176</w><h>99</h></coordinates><panel_attributes>Educator
+-
+Id
+EducatorName</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>341</y><w>176</w><h>132</h></coordinates><panel_attributes>ReportCard
+-
+Id
+StudentId
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>385</x><y>187</y><w>176</w><h>99</h></coordinates><panel_attributes>Subject
+-
+Id
+SubjectName</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>385</x><y>572</y><w>176</w><h>99</h></coordinates><panel_attributes>Group
+-
+Id
+GroupName</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>605</y><w>165</w><h>55</h></coordinates><panel_attributes>lt=-
+складається з &gt;
+m2=1..*
+m1=1</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>220</y><w>165</w><h>55</h></coordinates><panel_attributes>lt=-
+&lt; викладає
+m2=1..*
+m1=1..*</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>462</x><y>275</y><w>99</w><h>319</h></coordinates><panel_attributes>lt=-
+вивчає ^
+m2=1..*
+m1=1</panel_attributes><additional_attributes>10;270;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>187</x><y>352</y><w>176</w><h>132</h></coordinates><panel_attributes>GroupSubject
+-
+GroupId
+SubjectId
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>462</y><w>77</w><h>132</h></coordinates><panel_attributes>lt=-
+має ^
+m2=1
+m1=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>539</x><y>44</y><w>176</w><h>110</h></coordinates><panel_attributes>EducatorSubject
+-
+EducatorId
+SubjectId</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>616</x><y>143</y><w>33</w><h>99</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>418</y><w>143</w><h>33</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element></diagram>
